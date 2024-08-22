@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    background-color: rgba(191, 247, 191, 0.767);
+    text-align: justify;
+}
+
+h1{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1#principal{
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgba(0, 105, 0, 0.226);
+    color: rgb(1, 114, 1);
+}
+
+h2{
+    font-family: serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.html{
+    color: rgb(197, 197, 58);
+}
+
+.c{
+    color: rgb(73, 73, 151);
+}
+
+.python{
+    color: rgb(66, 21, 66);
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: rgb(214, 145, 145);
+    color: white;
+}
