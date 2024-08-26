@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela002</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            border: 3px solid black;
+            border-bottom: 0px;
+            background-color: rgba(0, 0, 0, 0.74);
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+        position: sticky;
+        top: -3px;
+        background-color: gray;
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        th, td{
+            border: 3px solid black;
+            width: 100px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Hipertensão</caption>
+        <thead> 
+            <tr>
+                <th scope="col">Indivíduos</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">Hipertensão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joaquim</td>
+                <td class="num">50</td>
+                <td>M</td>
+                <td>Bauru</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td class="num">49</td>
+                <td>M</td>
+                <td>Marília</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Aparecida</td>
+                <td class="num">80</td>
+                <td>F</td>
+                <td>Ourinhos</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Enrico</td>
+                <td class="num">45</td>
+                <td>M</td>
+                <td>Garça</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td class="num">67</td>
+                <td>M</td>
+                <td>Gália</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td class="num">56</td>
+                <td>M</td>
+                <td>Marília</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td class="num">12</td>
+                <td>F</td>
+                <td>Bauru</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Silmara</td>
+                <td class="num">56</td>
+                <td>F</td>
+                <td>Bauru</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Luciana</td>
+                <td class="num">98</td>
+                <td>F</td>
+                <td>Marília</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td class="num">34</td>
+                <td>M</td>
+                <td>Garça</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td class="num">40</td>
+                <td>M</td>
+                <td>Marília</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Giovana</td>
+                <td class="num">30</td>
+                <td>F</td>
+                <td>Bauru</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Sandra</td>
+                <td class="num">75</td>
+                <td>F</td>
+                <td>Ourinhos</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Miguel</td>
+                <td class="num">82</td>
+                <td>M</td>
+                <td>Bauru</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Cláudia</td>
+                <td class="num">55</td>
+                <td>F</td>
+                <td>Bauru</td>
+                <td>Sim</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" id="foot">Pessoas com hipertensão</th>
+                <td class="num" id="foot"><strong>7</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor molestias velit mollitia aperiam! Aut quidem qui obcaecati, quam dicta veritatis impedit hic ex voluptate. Quod eaque distinctio nesciunt omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Non commodi id reiciendis eius vitae assumenda blanditiis! Perferendis dicta quibusdam, sed dolores accusamus error numquam voluptatum, voluptates id ab qui eius?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam asperiores sed magnam fugiat unde corrupti facere dicta, eum voluptates ullam quo praesentium labore tempora commodi, in quidem totam consequatur! Amet?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque facilis ab minima ut delectus at quibusdam. Velit exercitationem blanditiis dolorum doloribus, animi odio, accusamus dolorem eligendi, repudiandae pariatur nam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam excepturi qui nobis laudantium itaque delectus, voluptatibus iste aperiam temporibus mollitia provident animi. Quidem sit placeat maiores id numquam, quo nostrum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta est quo ut suscipit maxime provident veniam nulla ab odit adipisci. Laboriosam odit iusto itaque eligendi, dolorum aliquid pariatur dicta molestias.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim id incidunt, nulla, quia iusto tempore vero quo nobis recusandae temporibus dolorem esse doloremque reprehenderit aliquid neque. Eum, facere ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, repudiandae. Ducimus assumenda, reiciendis beatae reprehenderit officiis suscipit explicabo iste possimus eos rem hic deleniti fugit harum necessitatibus, voluptatibus earum nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit reprehenderit repellat, pariatur incidunt quam eveniet tempora nesciunt quod modi accusantium obcaecati consectetur, sint tempore! Eveniet aperiam culpa porro  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, laudantium rerum minus illo expedita nostrum ad ipsam culpa ducimus nobis, molestias tenetur magnam sunt adipisci earum voluptates harum! Nulla, architecto.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim perspiciatis dolorem molestias. Id a animi nesciunt odio non quisquam eum voluptas cum deserunt. Ex delectus, accusamus voluptas tenetur magnam libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illo, reprehenderit, atque fugit eius suscipit corrupti alias nulla sed praesentium quo commodi nam dolores expedita doloremque vitae exercitationem iusto cum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim id incidunt, nulla, quia iusto tempore vero quo nobis recusandae temporibus dolorem esse doloremque reprehenderit aliquid neque. Eum, facere ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, repudiandae. Ducimus assumenda, reiciendis beatae reprehenderit officiis suscipit explicabo iste possimus eos rem hic deleniti fugit harum necessitatibus, voluptatibus earum nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit reprehenderit repellat, pariatur incidunt quam eveniet tempora nesciunt quod modi accusantium obcaecati consectetur, sint tempore! Eveniet aperiam culpa porro  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, laudantium rerum minus illo expedita nostrum ad ipsam culpa ducimus nobis, molestias tenetur magnam sunt adipisci earum voluptates harum! Nulla, architecto.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim id incidunt, nulla, quia iusto tempore vero quo nobis recusandae temporibus dolorem esse doloremque reprehenderit aliquid neque. Eum, facere ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, repudiandae. Ducimus assumenda, reiciendis beatae reprehenderit officiis suscipit explicabo iste possimus eos rem hic deleniti fugit harum necessitatibus, voluptatibus earum nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit reprehenderit repellat, pariatur incidunt quam eveniet tempora nesciunt quod modi accusantium obcaecati consectetur, sint tempore! Eveniet aperiam culpa porro  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, laudantium rerum minus illo expedita nostrum ad ipsam culpa ducimus nobis, molestias tenetur magnam sunt adipisci earum voluptates harum! Nulla, architecto.</p>
+</body>
+</html>
